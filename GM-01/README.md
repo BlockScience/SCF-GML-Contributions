@@ -16,31 +16,33 @@ License: ?CC-By-4.0
 
 ## Abstract
 
-A Governance Module (GM) is a formal design document for the greater Crypto community. A GM is meant to be used to assist in Governance for Crypto communities, possibly in conjunction with other modules. 
+A Governance Module (GM) is a formal design document. A GM is meant to be used to assist in development of new governance modules for the Stellar community, but describes the module agnostically to underlying ledgers. 
 
 ## Motivation: Why is this GM necessary?
 
-GMs aim to facilitate a multi-party collaboration, and this GM intends to provide a formalized process by which the collaboration can take place. 
+GMs aim to facilitate a multi-party collaboration, and this GM intends to provide a formalized process by which the collaboration can take place. If succesfull, this process results in GMs being included in the Governance Modules Library (GML).  
 
 ## Specification
 
 ### Structure
 
-A GM is a living document of a governance concept, from inception and basis towards a sample implementation of the module in Python. A GM is a Mardown file, that lives in the GM repository, with pre-defined sections. GM authors must adhere to the general structure to facilitate browsing and adding new GMs. 
+A GM is a living document of a governance concept, from ideation to a sample implementation, which allows it to be included in the Governance Modules Library. A GM is a Markdown file, that lives in the GM repository, with pre-defined sections. GM authors must adhere to the general structure to facilitate browsing and collaborative development of new GMs. 
 
 A GM should be stored in its specific folder, named after its number (2-digit, padded with a `0` - e.g. `GM-01`). The GM itself should be described in `README.md` as defined in this document. The GM's sample implementation should be included in `implementation.py` in that folder.   
+[TODO: Naming - maybe number + title? i.e. "GM-02_NeuralQuorumGovernance"]
 
 Please see the below table for the varied sections expected in each GM's `README.md`:
+[TODO: Check for readme structure. Potentially stick to 'desire' status points: 1) Title, Proposer, Date 2) Brief Summary and "why"  3) Problem Statement: Description of acceptable solution (what is [non-]allowable) 4) Potential Applications]
 
 Name										| Description
 ----										| ----
-Header									| Header containing the GM's Metadata 
+Header									| Header containing the GM's Metadata [Check]
 Abstract								| A short description of the GM itself
 Motivation							| What is the basis behind publishing this GM?
 Specification						| Technical details about the GM 
 Rationale								| Explains design choices in the Specification
 Implementation Path			| The current path towards an active module
-Copyright								| The GM's copyright license
+Copyright								| The GM's copyright license [Check - standardized for all?]
 
 ##### Header
 Each GM should have a YAML-style header section at the top to facilatate browsing 
@@ -51,30 +53,50 @@ Field 		        | Description
 `Title`		        | Succinct title for the GM
 `Status`	        | Desire \| In R&D \| In-Development \| Implemented
 `Category`      	| Distinguishing between the multiple kinds of GMs
-`Authors`		      | List the Author's real names and email addresses (e.g. John Doe <john@site.dom>)
+`Authors`		      | List the Author's real names/pseudonyms and email addresses (e.g. John Doe <john@site.dom>)
 `Implementors`  	| Who is currently working on the GM, and which part (e.g. Implementation vs. Research)
 `Discussions` 	  | A list of the places where relevant conversations took place around this GM or that GM's focus - a link to this GM's PR should always be included. 
 `Created` 	    	| Date the GM was created, in IS) 8601 format (YYYY-MM-DD)
 `License`		      | Abbreviated License 
 
 #### Status
-A GM can have four statuses: `Desire`, `In R&D`, `In-Development` or `Implemented`. The process by which a GM is progressed through the statuses is described in the [Flow](#flow) section. 
+A GM always has one status label attached: `In-Desire`, `In-R&D`, `In-Development` or `Implemented`. The process by which a GM is progressed through the statuses is described in the [Flow](#flow) section. 
 
-##### Status: Desire
-A `Desire` is a call for a governance module supporting an existing concept. It might not be fully fleshed out, there might not be an implementation ready, but there is a desire to build out that module.
+##### Status: In-Desire
+`In-Desire` is a call for a governance module to be eventually included in the GML. It might still be in ideation phase, there might not be an implementation ready, but there is a desire to build out that module. Anyone can suggest a new module, either through the google form (maintained by the community), the discussion tab, or directly through a PR. 
+To move out of `In-Desire` it needs fully described: 
+1) Title, Proposer, Date 
+2) Brief Summary and "why"  
+3) Problem Statement: Description of acceptable solution (what is [non-]allowable) 
+4) Potential Applications (at least one) 
 
-##### Status: In R&D
-A GM that is `In R&D` is a serious consideration for a Desire. It could involve academics, R&D, and should focus on the feasibility of the GM. 
+##### Status: In-R&D
+A GM that is `In-R&D` is a serious consideration for a Desire. Anyone can contribute, either through suggestions in the relevant discussion or through PRs. 
+To move out of `In-R&D` it needs fully described: 
+1) Requirements 
+2) List of prior implementations and links to prior research 
+3) Decision on acceptable solution (space) with rationale 
 
 ##### Status: In-Development
 A GM that is `In-Development` is being worked on actively: There is an expectation that it will be implemented with a reference implementation in the near future. 
+To move out of `In-Development` it needs fully described: 
+1) Specification 
+2) Implementation Instructions 
+3) Tuning Guidelines (list of tuneable params and associated understanding) 
+4) Description for simulations (or reference implementation, for example in python)  
 
 ##### Status: Implemented
 Add Description for the Implemented Status. 
-A GM that is Implemented is a GM ready to use by others: the public should be able to explore the GM and it should have a reference implementation available.
+A GM that is Implemented is moved into the GML. It is ready for use and further iterations by others: the public should be able to explore the GM and it should have a reference implementation available.
 
 #### Category
-A GM can have multiple categories. `Meta` is a category dealing with meta processes to the GML. `Power` deals with GMs that adjust (voting) power. `Signal` deals with surfacing or adjusting. `Identity` deals with Identity and proposals. `History` looks at adjustments from Priors. Categories are still being defined, and some GMs may get moved accross the categories as they evolve and get better defined with time.
+A GM can have multiple categories. We define a first set of categories, but expect these to be changed and added to according to the expectations of the community that uses and maintains these GMs. 
+`Meta` is a category dealing with meta processes to the GML. 
+`Power` deals with GMs that provide mechanisms to attribute (voting) power. 
+`Signal` deals with GMs that signal voting choice. 
+`Identity` deals with GMs that govern identity and proposals. 
+`Reputation` deals with GMs that assign reputation or credentials to identities.  
+Categories are still being defined, and some GMs may get moved accross the categories as they evolve and get better defined with time.
 
 ##### Abstract
 Add description of Abstract section here. Abstract is a short summary of the GM. This helps for clarity. 
