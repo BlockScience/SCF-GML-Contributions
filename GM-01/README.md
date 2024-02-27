@@ -49,7 +49,7 @@ Field 		        | Description
 ----		  	      | ----
 `GM`			        | The GM number. for new proposals, please use "\?"
 `Title`		        | Succinct title for the GM
-`Status`	        | Request \| Exploring \| In-Development \| Implemented
+`Status`	        | Desire \| In R&D \| In-Development \| Implemented
 `Category`      	| Distinguishing between the multiple kinds of GMs
 `Authors`		      | List the Author's real names and email addresses (e.g. John Doe <john@site.dom>)
 `Implementors`  	| Who is currently working on the GM, and which part (e.g. Implementation vs. Research)
@@ -58,15 +58,15 @@ Field 		        | Description
 `License`		      | Abbreviated License 
 
 #### Status
-A GM can have four statuses: `Request`, `Exploring`, `In-Development` or `Implemented`. The process by which a GM is progressed through the statuses is described in the [Flow](#flow) section. 
+A GM can have four statuses: `Desire`, `In R&D`, `In-Development` or `Implemented`. The process by which a GM is progressed through the statuses is described in the [Flow](#flow) section. 
 
-##### Status: Request
-Add Description for the Request Status. 
-A Request is a call for a governance module supporting an existing concept. It might not be fully fleshed out, there might not be an implementation ready, but there is a desire to build out that module.
+##### Status: Desire
+Add Description for the Desire Status. 
+A Desire is a call for a governance module supporting an existing concept. It might not be fully fleshed out, there might not be an implementation ready, but there is a desire to build out that module.
 
-##### Status: Exploring
-Add Description for the Exploring Status. 
-A GM that is Exploring is a serious considerion for a Request. It could involve academics, R&D, and should focus on the feasibility of the GM. 
+##### Status: In R&D
+Add Description for the `In R&D` Status. 
+A GM that is Exploring is a serious consideration for a Desire. It could involve academics, R&D, and should focus on the feasibility of the GM. 
 
 ##### Status: In-Development
 Add Description for the In-Development Status. 
