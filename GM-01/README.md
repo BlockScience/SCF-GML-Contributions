@@ -1,6 +1,7 @@
 ---
 GM: 1
 Title: Governance Module Library
+Status: Exploring
 Category: Meta
 Authors: 
 - Frederic Johnson <frederic@advanceweb3.com>
