@@ -61,16 +61,13 @@ Field 		        | Description
 A GM can have four statuses: `Desire`, `In R&D`, `In-Development` or `Implemented`. The process by which a GM is progressed through the statuses is described in the [Flow](#flow) section. 
 
 ##### Status: Desire
-Add Description for the Desire Status. 
-A Desire is a call for a governance module supporting an existing concept. It might not be fully fleshed out, there might not be an implementation ready, but there is a desire to build out that module.
+A `Desire` is a call for a governance module supporting an existing concept. It might not be fully fleshed out, there might not be an implementation ready, but there is a desire to build out that module.
 
 ##### Status: In R&D
-Add Description for the `In R&D` Status. 
-A GM that is Exploring is a serious consideration for a Desire. It could involve academics, R&D, and should focus on the feasibility of the GM. 
+A GM that is `In R&D` is a serious consideration for a Desire. It could involve academics, R&D, and should focus on the feasibility of the GM. 
 
 ##### Status: In-Development
-Add Description for the In-Development Status. 
-A GM that is In-Development is being worked on actively: There is an expectation that it will be implemented with a reference implementation in the near future. 
+A GM that is `In-Development` is being worked on actively: There is an expectation that it will be implemented with a reference implementation in the near future. 
 
 ##### Status: Implemented
 Add Description for the Implemented Status. 
