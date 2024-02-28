@@ -51,7 +51,7 @@ Field 		        | Description
 ----		  	      | ----
 `GM`			        | The GM number. for new proposals, please use "\?"
 `Title`		        | Succinct title for the GM
-`Status`	        | Desire \| In R&D \| In-Development \| Implemented
+`Status`	        | In-Desire \| In-R&D \| In-Development \| Implemented
 `Category`      	| Distinguishing between the multiple kinds of GMs
 `Authors`		      | List the Author's real names/pseudonyms and email addresses (e.g. John Doe <john@site.dom>)
 `Implementors`  	| Who is currently working on the GM, and which part (e.g. Implementation vs. Research)
