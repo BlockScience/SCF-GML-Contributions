@@ -37,11 +37,10 @@ Please see the below table for the varied sections expected in each GM's `README
 Name										| Description
 ----										| ----
 Header									| Header containing the GM's Metadata [Check]
-Abstract								| A short description of the GM itself
-Motivation							| What is the basis behind publishing this GM?
-Specification						| Technical details about the GM 
-Rationale								| Explains design choices in the Specification
-Implementation Path			| The current path towards an active module
+Abstract								| A short summary of the GM 
+Motivation							| What is the "why" for publishing this GM?
+Problem Statement				| Describes what an acceptable solution should look like 
+Potential Applications	| Potential applications for the GM 
 Copyright								| The GM's copyright license [Check - standardized for all?]
 
 ##### Header
@@ -54,7 +53,7 @@ Field 		        | Description
 `Status`	        | In-Desire \| In-R&D \| In-Development \| Implemented
 `Category`      	| Distinguishing between the multiple kinds of GMs
 `Authors`		      | List the Author's real names/pseudonyms and email addresses (e.g. John Doe <john@site.dom>)
-`Implementors`  	| Who is currently working on the GM, and which part (e.g. Implementation vs. Research)
+`Implementors`  	| Who is currently working on the GM, and which part (e.g. Implementation vs. Research) (%check think not needed) 
 `Discussions` 	  | A list of the places where relevant conversations took place around this GM or that GM's focus - a link to this GM's PR should always be included. 
 `Created` 	    	| Date the GM was created, in IS) 8601 format (YYYY-MM-DD)
 `License`		      | Abbreviated License 
@@ -86,8 +85,7 @@ To move out of `In-Development` it needs fully described:
 4) Description for simulations (or reference implementation, for example in python)  
 
 ##### Status: Implemented
-Add Description for the Implemented Status. 
-A GM that is Implemented is moved into the GML. It is ready for use and further iterations by others: the public should be able to explore the GM and it should have a reference implementation available.
+A GM that is `Implemented` is moved into the GML. It is ready for use and further iterations by others: the public should be able to explore the GM and it should have a reference implementation available.
 
 #### Category
 A GM can have multiple categories. We define a first set of categories, but expect these to be changed and added to according to the expectations of the community that uses and maintains these GMs. 
@@ -99,36 +97,29 @@ A GM can have multiple categories. We define a first set of categories, but expe
 Categories are still being defined, and some GMs may get moved accross the categories as they evolve and get better defined with time.
 
 ##### Abstract
-Add description of Abstract section here. Abstract is a short summary of the GM. This helps for clarity. 
+Add Abstract here. Abstract is a short summary of the GM. This helps for clarity. 
 
 ##### Motivation 
-Add description of Motivation here. The Motivation is the why of the GM, as in why it is being proposed, as a request or other. 
+Add description of Motivation here. The Motivation is the why-statement of the GM, and describes why the author thinks the GM should eventually be included in the GML. 
 
-##### Specification
-Add description of Specification here. The Specification is intent as the heart of the GM, where the flows for that GM are explained, and how it currently functions.
+##### Problem Statement
+Add description of the Problem Statement here. The Problem Statement describes what an acceptable (or non-acceptable) solution looks like and helps to define requirements in the next stage. 
 
-##### Rationale 
-Add description of Rationale here. The Rationale for the GM is the reason why it is being proposed, as well as relevant Specification choices that were made.
-
-##### Specification 
-Add description of Specification here. The Specification should describe the GM in details possibly including links to ongoing research groups or documentation.
-
-##### Implementation Path
-Add description of the Implementation Path here. The Implementation Path should be focusing on the path towards a workable module with a Python implementation available. For an implemented GM, Implementation Path should be replaced by "Implementation notes", describing how to run the implementation.
+##### Potential Applications
+Add at least one potential application for the GM here. Potential applications describe scenarios in which the GM could be used in practice. 
 
 ##### Copyright
 Add Description of the Copyright here
 
 #### Flow
-(NEEDED) Description of how a GM goes from Request to Exploring to In-Development and towards Implemented. Consider other statuses to add (ex: Closed). This process is assumed to require a team of GM'ers, or curators to the Library repository. The process could be a monthly, public two hour review of the existing PR's to the repository, and a look into new PRs. GM'ers could be Governance specialist aiming to grow the set of existing modules. 
+Description of how a GM goes from `In-Desire` to `In-R&D` to `In-Development` to `Implemented`. This process is assumed to require a team of maintainers to the Library repository. The process could be a monthly, public two hour review of the existing PR's to the repository, and a look into new PRs. GM'ers could be Governance specialist aiming to grow the set of existing modules. 
+Each status label has certain conditions needed to be fulfilled to progress to the next. These conditions are listed in: XXX. 
+Maintainers are further split into three roles, corresponding to the labels `In-Desire`, `In-R&D`, `In-Development`. These maintainers can accept PRs relevant for their status, move items out of their status (into the next, or back to the prior if needed) and open/close discussions relevant to their status. Since not all contributions will be provided through PRs, maintainers also create PRs from accepted community suggestions (such as in the discussions). 
 (NEEDED) Description of how to submit a new GM.
-i.e. GM must be submitted as a pull request to this repository in the specified format, with the pull request named after the GM's title. Once submitted, GM'ers will review the GM and merge or request changes. A conversation is expected to live within the pull request. Someone might propose a GM for a kind of module, implemented or being researched.   
+A new GM can be submitted either through a pull request to this repository (conforming to the template and naming convention) or through the google form (in which case a maintainer must capture and format the request, if applicable).  Once submitted through a PR, maintainers will review the GM and merge or request changes. A conversation is expected to live within the pull request. Throughout the lifecycle of status labels, each GM will have a corresponding discussion where contributions can be made.  
 
 ## Rationale
-This GM is needed as a Meta-GM, to enable the general process by which other GMs might be added to the Library.
-
-## Implementation Path
-This Meta-GM is currently being `Explored` but can be considered as `Implemented`. External contributors to the Repo can validate the process described in this GM. 
+This GM is needed as a Meta-GM, to describe the general process by which other GMs might be added to the Library.
 
 ## Copyright
 There is no Copyright setup for this GM yet, this is to be added/considered soon. 
