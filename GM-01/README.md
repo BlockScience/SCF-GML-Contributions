@@ -5,8 +5,7 @@ Status: Exploring
 Category: Meta
 Authors: 
 - Frederic Johnson <frederic@advanceweb3.com>
-- Jakob Hakel <jhackel@block.science>
-Implementors: Block.Science
+- Jakob Hackel <jhackel@block.science>
 Discussions:
 - (forum?Twitter?)
 - ?
@@ -53,7 +52,6 @@ Field 		        | Description
 `Status`	        | In-Desire \| In-R&D \| In-Development \| Implemented
 `Category`      	| Distinguishing between the multiple kinds of GMs
 `Authors`		      | List the Author's real names/pseudonyms and email addresses (e.g. John Doe <john@site.dom>)
-`Implementors`  	| Who is currently working on the GM, and which part (e.g. Implementation vs. Research) (%check think not needed) 
 `Discussions` 	  | A list of the places where relevant conversations took place around this GM or that GM's focus - a link to this GM's PR should always be included. 
 `Created` 	    	| Date the GM was created, in IS) 8601 format (YYYY-MM-DD)
 `License`		      | Abbreviated License 
