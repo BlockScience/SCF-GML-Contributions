@@ -15,23 +15,23 @@ The currently proposed maintainer roles are:
 * R&D Moderator
 * Dev Moderator
 
-Each Moderator is in charge of actions while an item is in their respective backlog. 
-In doing so, they can decide to move the item back (effectively asking for more information to be provided) or forward (effectively deciding that the conditions of the current backlog have been fulfilled) one backlog.
+Each Moderator is in charge while an item is in their respective backlog. 
+They can decide to move the item back (effectively asking for more information to be provided) or forward (effectively deciding that the conditions of the current backlog have been fulfilled) one backlog.
 Ideally, a discussion in the respective category is started (by the moderator) when an item moves into a backlog, and either moved or closed when moving out of a backlog. 
 This allows any user willing to contribute to efficiently see which GMs they can currently contribute to (with their expertise and work). 
 Additionally, this gives two options for contributions: Either directly through PRs, or simple forum-style text-based input at the respective discussion.
 Moderators can then capture any text-based input into a PR to formalize the contribution. 
-An additional option for community members to express ideas for new GMs exists through this google form (link). This form serves as an easy entry point for suggesting new GMs, even for community members that have less experience with github processes. 
-Desire Moderators see such form inputs, and if conforming to the rules, can formalize them on the repo. 
+An additional option for community members to express ideas for new GMs exists through this google form (link). This form serves as an easy entry point for suggesting new GMs for community members that have less experience with github processes. 
+Desire Moderators see these form inputs, and if conforming to the rules, can formalize them through PRs on the repo. 
 
 ## How:
 #### Flow
-GMs move from rough desires, expressed as PR or through the form, through a cycle of more detailed descriptions, until they have reached a level of specificity that qualifies them for inclusion in the GML.
+GMs move from rough desires, expressed with a PR or the form, through a cycle of more detailed descriptions, until they have reached a level of specificity that qualifies them for inclusion in the GML.
 A GM is labelled as per the current status, from `In-Desire` to `In-R&D` to `In-Development` to `Implemented`. 
 This process requires a team of maintainers to the Library Contributions repository. 
 The process could be a monthly, public, one-to-two hour review of the existing PR's to the repository, and a look into new PRs. 
 GM'ers could be Governance specialist aiming to grow the set of existing modules, or community members interested in contributing to a richer governance landscape. 
-Each status label has certain conditions needed to be fulfilled to progress to the next. These conditions are listed in: XXX. 
+Each status label has certain conditions needed to be fulfilled to progress to the next. These conditions are listed in: GM-01. 
 Maintainers are further split into three roles, corresponding to the labels `In-Desire`, `In-R&D`, `In-Development`. These maintainers can accept PRs relevant for their status, move items out of their status (into the next, or back to the prior if needed) and open/close discussions relevant to their status. Since not all contributions will be provided through PRs, maintainers also create PRs from accepted community suggestions (such as in the discussions). 
 
 ##### Description of how to submit a new GM.
