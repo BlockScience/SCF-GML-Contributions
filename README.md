@@ -1,5 +1,8 @@
 # ReadMe: SCF GML Contributions
 
+## List of GMs included in GML  
+<GM01> 
+
 ## Why:
 This repo is aimed at facilitating multi-party collaboration on developing implementable Governance Modules (GMs). 
 A formalized process helps to streamline such development, where if succesfull, the process results in new GMs being included in the Governance Modules Library (GML).  
