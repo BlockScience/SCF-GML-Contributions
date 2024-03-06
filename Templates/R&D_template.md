@@ -12,17 +12,29 @@ License: Abbreviated License  (such as CC-By-4.0)
 # Title
 Succinct title for the GM
 
-## Abstract
+## Desire 
+
+### Abstract
 Add Abstract here. Abstract is a short summary of the GM. This helps for clarity. 
 
-## Motivation
+### Motivation
 Add description of Motivation here. The Motivation is the why-statement of the GM, and describes why the author thinks the GM should eventually be included in the GML. 
 
-## Problem Statement
+### Problem Statement
 Add description of the Problem Statement here. The Problem Statement describes what an acceptable (or non-acceptable) solution looks like and helps to define requirements in the next stage. 
 
-## Potential Applications
+### Potential Applications
 Add at least one potential application for the GM here. Potential applications describe scenarios in which the GM could be used in practice. 
 
-## Copyright
+### Copyright
 Add Description of the Copyright here, such as CC-By-4.0 	
+
+## R&D
+### Requirements
+Add Requirements here. Requirements are concrete needs and constraints that the proposed GM needs to fulfill to be considered succesful. 
+
+### List of prior implementations and links to prior research
+Add prior implementations and prior research here. If the proposed GM is already implemented somewhere, or has been written about, add links and references here to build upon. 
+
+### Decision on acceptable solution (space) with rationale
+Describe the what an acceptable (or non-acceptable) solution looks like and why this decision was made. Closely related to requirements, this section argues for a particular solution space. 
