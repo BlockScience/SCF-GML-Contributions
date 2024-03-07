@@ -37,7 +37,7 @@ GM'ers could be Governance specialist aiming to grow the set of existing modules
 Each status label has certain conditions needed to be fulfilled to progress to the next. These conditions are listed in: GM-01. 
 Maintainers are further split into three roles, corresponding to the labels `In-Desire`, `In-R&D`, `In-Development`. These maintainers can accept PRs relevant for their status, move items out of their status (into the next, or back to the prior if needed) and open/close discussions relevant to their status. Since not all contributions will be provided through PRs, maintainers also create PRs from accepted community suggestions (such as in the discussions). 
 
-The Flow of items through the backlogs can be seen in this ![diagram](https://github.com/BlockScience/SCF-GML-Contributions/blob/main/Diagrams/Stellar%20GML%20-%20Flow.png).
+The Flow of items through the backlogs can be seen in this diagram ![flow_diagram](https://github.com/BlockScience/SCF-GML-Contributions/blob/main/Diagrams/Stellar%20GML%20-%20Flow.png).
 
 ##### Description of how to submit a new GM.
 A new GM can be submitted either through a pull request to this repository (conforming to the template and naming convention) or through the google form (in which case a maintainer must capture and format the request, if applicable).  Once submitted through a PR, maintainers will review the GM and merge or request changes. A conversation is expected to live within the pull request. Throughout the lifecycle of status labels, each GM will have a corresponding discussion where contributions can be made.  
@@ -78,6 +78,8 @@ Field 		        | Description
 
 #### Status
 A GM always has one status label attached: `In-Desire`, `In-R&D`, `In-Development` or `Implemented`. The process by which a GM is progressed through the statuses is described in the [Flow](#flow) section. 
+Below we list each status a GM can be in. These can be seen additionally in the following diagram, indicating with "boolean flag" conditions when an item can progress to the next status. 
+![conditions_diagram](https://github.com/BlockScience/SCF-GML-Contributions/blob/main/Diagrams/Stellar%20GML%20-%20Conditions.png)
 
 ##### Status: In-Desire
 `In-Desire` is a call for a governance module to be eventually included in the GML. It might still be in ideation phase, there might not be an implementation ready, but there is a desire to build out that module. Anyone can suggest a new module, either through the google form (maintained by the community), the discussion tab, or directly through a PR. 
