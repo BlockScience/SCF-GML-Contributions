@@ -15,7 +15,7 @@ License: ?CC-By-4.0
 
 ## Abstract
 
-A Governance Module (GM) is a formal design document. A GM is meant to be used to assist in development of new governance modules for the Stellar community, but describes the module agnostically to underlying ledgers. 
+A Governance Module (GM) is a formal design document. A GM is used in development of new and implementable governance modules for the Stellar community, but describes the module agnostically towards underlying ledgers. 
 
 ## Motivation: Why is this GM necessary?
 
@@ -28,10 +28,9 @@ GMs aim to facilitate a multi-party collaboration, and this GM intends to provid
 A GM is a living document of a governance concept, from ideation to a sample implementation, which allows it to be included in the Governance Modules Library. A GM is a Markdown file, that lives in the GM repository, with pre-defined sections. GM authors must adhere to the general structure to facilitate browsing and collaborative development of new GMs. 
 
 A GM should be stored in its specific folder, named after its number (2-digit, padded with a `0` - e.g. `GM-01`). The GM itself should be described in `README.md` as defined in this document. The GM's sample implementation should be included in `implementation.py` in that folder.   
-[TODO: Naming - maybe number + title? i.e. "GM-02_NeuralQuorumGovernance"]
 
 Please see the below table for the varied sections expected in each GM's `README.md`:
-[TODO: Check for readme structure. Potentially stick to 'desire' status points: 1) Title, Proposer, Date 2) Brief Summary and "why" 3) Problem Statement: Description of acceptable solution (what is [non-]allowable) 4) Potential Applications]
+
 
 Name										| Description
 ----										| ----
@@ -94,27 +93,28 @@ A GM can have multiple categories. We define a first set of categories, but expe
 `Reputation` deals with GMs that assign reputation or credentials to identities.  
 Categories are still being defined, and some GMs may get moved accross the categories as they evolve and get better defined with time.
 
-##### Abstract
-Add Abstract here. Abstract is a short summary of the GM. This helps for clarity. 
-
-##### Motivation 
-Add description of Motivation here. The Motivation is the why-statement of the GM, and describes why the author thinks the GM should eventually be included in the GML. 
-
-##### Problem Statement
-Add description of the Problem Statement here. The Problem Statement describes what an acceptable (or non-acceptable) solution looks like and helps to define requirements in the next stage. 
-
-##### Potential Applications
-Add at least one potential application for the GM here. Potential applications describe scenarios in which the GM could be used in practice. 
-
-##### Copyright
-Add Description of the Copyright here
-
 #### Flow
-Description of how a GM goes from `In-Desire` to `In-R&D` to `In-Development` to `Implemented`. This process is assumed to require a team of maintainers to the Library repository. The process could be a monthly, public two hour review of the existing PR's to the repository, and a look into new PRs. GM'ers could be Governance specialist aiming to grow the set of existing modules. 
-Each status label has certain conditions needed to be fulfilled to progress to the next. These conditions are listed in: XXX. 
+Description of how a GM goes from `In-Desire` to `In-R&D` to `In-Development` to `Implemented`. GMs move from rough desires, expressed with a PR or the form, through a cycle of more detailed descriptions, until they have reached a level of specificity that qualifies them for inclusion in the GML.
+A GM is labelled as per the current status, from `In-Desire` to `In-R&D` to `In-Development` to `Implemented`. 
+This process requires a team of maintainers to the Library Contributions repository. 
+The process could be a monthly, public, one-to-two hour review of the existing PR's to the repository, and a look into new PRs. 
+GM'ers could be Governance specialist aiming to grow the set of existing modules, or community members interested in contributing to a richer governance landscape. 
+Each status label has certain conditions needed to be fulfilled to progress to the next. These conditions are listed in: GM-01. 
 Maintainers are further split into three roles, corresponding to the labels `In-Desire`, `In-R&D`, `In-Development`. These maintainers can accept PRs relevant for their status, move items out of their status (into the next, or back to the prior if needed) and open/close discussions relevant to their status. Since not all contributions will be provided through PRs, maintainers also create PRs from accepted community suggestions (such as in the discussions). 
-Description of how to submit a new GM.
-A new GM can be submitted either through a pull request to this repository (conforming to the template and naming convention) or through the google form (in which case a maintainer must capture and format the request, if applicable).  Once submitted through a PR, maintainers will review the GM and merge or request changes. A conversation is expected to live within the pull request. Throughout the lifecycle of status labels, each GM will have a corresponding discussion where contributions can be made.  
+
+The Flow of items through the backlogs can be seen in this diagram: ![flow_diagram](https://github.com/BlockScience/SCF-GML-Contributions/blob/main/Diagrams/Stellar%20GML%20-%20Flow.png)
+
+##### Description of how to submit a new GM.
+A new GM can be submitted either through a pull request to this repository (conforming to the template and naming convention) or through the google form (in which case a maintainer must capture and format the request, if applicable). Once submitted through a PR, maintainers will review the GM and merge or request changes. A conversation is expected to live within the pull request. Throughout the lifecycle of status labels, each GM will have a corresponding discussion where contributions can be made.  
+
+#### Maintainers
+We separate functions that need fulfilling into roles. Our intention is to onboard community participants to fulfill these roles. This allows the community to gradually extend governance possibilities as a public good, facilitating a richer governance landscape. While initially there is a strong likelihood of several roles being fulfilled by few real users, this is expected to further decentralize over time. The currently proposed maintainer roles are:
+* Desire Moderator
+* R&D Moderator
+* Dev Moderator
+
+Each Moderator is in charge while an item is in their respective backlog. They can decide to move the item back (effectively asking for more information to be provided) or forward (effectively deciding that the conditions of the current backlog have been fulfilled) one backlog. Ideally, a discussion in the respective category is started (by the moderator) when an item moves into a backlog, and either moved or closed when moving out of a backlog. This allows any user willing to contribute to efficiently see which GMs they can currently contribute to (with their expertise and work). Additionally, this gives two options for contributions: Either directly through PRs, or simple forum-style text-based input at the respective discussion. Moderators can then capture any text-based input into a PR to formalize the contribution. An additional option for community members to express ideas for new GMs exists through this google form (link). This form serves as an easy entry point for suggesting new GMs for community members that have less experience with github processes. Desire Moderators see these form inputs, and if conforming to the rules, can formalize them through PRs on the repo.
+
 
 ## Rationale
 This GM is needed as a Meta-GM, to describe the general process by which other GMs might be added to the Library.
