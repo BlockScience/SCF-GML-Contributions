@@ -56,7 +56,9 @@ Field 		        | Description
 `License`		      | Abbreviated License 
 
 #### Status
-A GM always has one status label attached: `In-Desire`, `In-Design`, `In-Development` or `Implemented`. The process by which a GM is progressed through the statuses is described in the [Flow](#flow) section. 
+A GM always has one status label attached: `In-Desire`, `In-Design`, `In-Development` or `Implemented`. The process by which a GM is progressed through the statuses is described in the [Flow](#flow) section.
+Below we list each status a GM can be in. These can be seen additionally in the following diagram, indicating with "boolean flag" conditions when an item can progress to the next status. 
+![conditions_diagram](https://github.com/BlockScience/SCF-GML-Contributions/blob/main/Diagrams/Stellar%20GML%20-%20Conditions.png)
 
 ##### Status: In-Desire
 `In-Desire` is a call for a governance module to be eventually included in the GML. It might still be in ideation phase, there might not be an implementation ready, but there is a desire to build out that module. Anyone can suggest a new module, either through the google form (maintained by the community), the discussion tab, or directly through a PR. 
