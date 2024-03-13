@@ -32,7 +32,7 @@ The Governance Modules Library (GML) is a living collection of completed GMs. It
 2. Check the [Desire_template](https://github.com/BlockScience/SCF-GML-Contributions/blob/main/Templates/Desire_template.md) and make sure you can describe the GM as needed. 
 
 ## How to become a Maintainer: 
-The GML and its contribution pipeline are planned to be a community effort. If you would like to contribute, do XXX (Check -> post on discussion? Send msg to X?)
+The GML and its contribution pipeline are planned to be a community effort. If you would like to contribute, introduce yourself in the [discussion thread](https://github.com/BlockScience/SCF-GML-Contributions/discussions/categories/community-maintainers)! 
 Maintenance of this repo includes moving items through backlogs by verifying that enough information has been given as per the current status. Additionally, discussions and forms need to be monitored to allow community members unfamiliar with PR processes to contribute. 
 
 ## Copyright
