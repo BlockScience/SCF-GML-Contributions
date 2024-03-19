@@ -10,7 +10,7 @@ Discussions:
 - (forum?Twitter?)
 - ?
 Created: 2024-02-27
-License: ?CC-By-4.0
+License: CC-By-4.0
 ---
 
 ## Abstract
@@ -115,7 +115,7 @@ We separate functions that need fulfilling into roles. Our intention is to onboa
 * Design Moderator
 * Dev Moderator
 
-Each Moderator is in charge while an item is in their respective backlog. They can decide to move the item back (effectively asking for more information to be provided) or forward (effectively deciding that the conditions of the current backlog have been fulfilled) one backlog. Ideally, a discussion in the respective category is started (by the moderator) when an item moves into a backlog, and either moved or closed when moving out of a backlog. This allows any user willing to contribute to efficiently see which GMs they can currently contribute to (with their expertise and work). Additionally, this gives two options for contributions: Either directly through PRs, or simple forum-style text-based input at the respective discussion. Moderators can then capture any text-based input into a PR to formalize the contribution. An additional option for community members to express ideas for new GMs exists through this google form (link). This form serves as an easy entry point for suggesting new GMs for community members that have less experience with github processes. Desire Moderators see these form inputs, and if conforming to the rules, can formalize them through PRs on the repo.
+Each Moderator is in charge while an item is in their respective backlog. They can decide to move the item back (effectively asking for more information to be provided) or forward (effectively deciding that the conditions of the current backlog have been fulfilled) one backlog. Ideally, a discussion in the respective category is started (by the moderator) when an item moves into a backlog, and either moved or closed when moving out of a backlog. This allows any user willing to contribute to efficiently see which GMs they can currently contribute to (with their expertise and work). Additionally, this gives two options for contributions: Either directly through PRs, or simple forum-style text-based input at the respective discussion. Moderators can then capture any text-based input into a PR to formalize the contribution. An additional option for community members to express ideas for new GMs exists through this [Google Form](https://forms.gle/y83RBbsYMdY6LQ7dA). This form serves as an easy entry point for suggesting new GMs for community members that have less experience with github processes. Desire Moderators see these form inputs, and if conforming to the rules, can formalize them through PRs on the repo.
 
 
 ## Rationale
