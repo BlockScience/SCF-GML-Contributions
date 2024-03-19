@@ -81,7 +81,7 @@ To move out of `In-Development` it needs fully described:
 1) Specification
 2) Implementation Instructions
 3) Tuning Guidelines (list of tuneable params and associated understanding)
-4) Description for simulations (or reference implementation, for example in python) 
+4) Simulation or Reference Implementation in Python or Rust (A toy model, R-I, pseudo-code, showing how the logic would work)  
 
 ##### Status: Implemented
 A GM that is `Implemented` is moved into the GML. It is ready for use and further iterations by others: the public should be able to explore the GM and it should have a reference implementation available.
