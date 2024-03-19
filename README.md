@@ -11,6 +11,8 @@ To submit a new idea for a Governance Module (GM), two paths are available:
 2. Fill out this [template](https://github.com/BlockScience/SCF-GML-Contributions/blob/main/Templates/Desire_template.md)
 3. Create a pull request against BlockScience/SCF-GML-Contributions main
 
+### OR
+
 ### Form:
 1. Fill out this [Google Form](https://forms.gle/y83RBbsYMdY6LQ7dA)
 2. A Desire Moderator will review the input and create a PR if the qualifications are met
