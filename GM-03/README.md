@@ -4,7 +4,7 @@ Title: Trustful - Verifiable Reputation Aggregator
 Status: In-R&D
 Category: Reputation  
 Authors: Leonardo Vieira, Daniela Zschaber
-Discussions: tbd
+Discussions: https://github.com/BlockScience/SCF-GML-Contributions/discussions/11
 Created: 2024-09-11
 License: tbd
 ---
