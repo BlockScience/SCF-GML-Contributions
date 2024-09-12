@@ -2,7 +2,7 @@
 GM: GM-03
 Title: Trustful - Verifiable Reputation Aggregator
 Status: In-RD
-Category: `Reputation`  
+Category: Reputation  
 Authors: Leonardo Vieira, Daniela Zschaber
 Discussions: tbd
 Created: 2024-09-11
